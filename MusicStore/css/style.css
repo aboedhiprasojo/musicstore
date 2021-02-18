@@ -25,6 +25,9 @@
     padding-left: 101px;
 }
 
+h2 {
+    color: #041850;
+}
 
 .form-control {
     width: 100%;
@@ -104,6 +107,15 @@ p .btn-primary:hover {
     margin-top: 100px;
     background: linear-gradient(180deg, #FDFDFD 0%, rgba(253, 245, 245, 0.503115) 49.69%, rgba(233, 233, 233, 0) 100%);
     margin-bottom: 24px;
+}
+
+.music-store .caption h3 {
+    text-align: center;
+}
+
+.music-store .caption p {
+    color: #6E6E6E;
+    font-size: 16px;
 }
 
 /* contact */
