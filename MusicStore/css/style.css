@@ -203,4 +203,28 @@ footer a:hover {
     color: var(--pink-color);
 }
 
-@
+/* media queries */
+
+@media (max-width: 650px) {
+    /* footer */
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .footer-nav .garis {
+        display: none;
+    }
+
+    .footer-container .footer-nav {
+        margin-top: 80px;
+    }
+
+    .footer-container .logo {
+        order: 2;
+        padding-top: 10px;
+    }
+
+}
