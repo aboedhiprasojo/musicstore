@@ -208,6 +208,104 @@ footer a:hover {
     color: var(--pink-color);
 }
 
+/* Our Team */
+
+.our-team {
+    margin-bottom: 250px;
+}
+
+.page-title-area {
+    background-color: #13c4a1;
+    position: relative;
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.page-title-content {
+    text-align: center;
+}
+
+.page-title-content h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: var(--light-color);
+}
+
+.page-title-content p {
+    margin-top: 15px;
+    color: var(--light-color);
+}
+
+.our-team h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.our-team p {
+    font-size: 14px;
+    text-align: center;
+    color: #6E6E6E;
+}
+
+/* about area */
+
+.ptb-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sub-title {
+    color: #ff612f;
+}
+
+.about-content .sub-title {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.about-content h2 {
+    margin-bottom: 16px;
+    font-size: 36px;
+}
+
+.about-content p {
+    color: #4a6f8a;
+    margin-bottom: 12px;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.about-image img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    width: 250%;
+}
+
+/* about media */
+
+.about-media {
+    margin-bottom: 250px;
+}
+
+.about-media h2 {
+    font-size: 32px;
+}
+
+.about-media h3 {
+    color: #ff612f;
+    font-size: 30px;
+}
+
+.about-media p {
+    color: #4a6f8a;
+    font-size: 14px;
+}
+
 /* media queries */
 
 @media (max-width: 650px) {
